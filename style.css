@@ -1,0 +1,171 @@
+body, html {
+            height: 100%;
+            font-family: 'Metamorphous', cursive;
+            margin: 0 auto;
+            color: white;
+        }
+        .treeContent {
+            color: black;
+            padding-top: 40px;
+            padding-bottom: 50px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .treeContent .card {
+            background-color: #868e96;
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+        }
+        .bodyContent p {
+            text-indent: 40px;
+        }
+        .treeContent .card img {
+            height: 150px;
+        }
+        .treeImg {
+            padding-top:50px;
+            padding-bottom: 110px;
+            background-image: url("images/yggdrasil_color.png");
+            
+            
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100%;
+        }
+        .mainColor {
+            background-color: #0E0B16;
+        }
+        .breakColor {
+            background-color: #2d283e;
+        }
+        .bodyContent {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        .yggdrasil {
+            background-color: #0f0a13;
+        }
+        .alfheim {
+            background-color: #283517;
+        }
+        .footerContent {
+            padding-top: 50px;
+            padding-bottom: 40px;
+            background-color: #343a40;
+        }
+        .treeContent a {
+            color: black;
+            text-decoration: none;
+        }
+        .row {
+            margin-top: 20px;
+        }
+        .invalid-feedback {
+            display: none;
+        }
+        .media {
+            background-color: rgb(230, 230, 230);
+            color: black;
+            padding: 10px;
+            min-height: 100px;
+            margin-bottom: 5px;
+        }
+        .commentDiv {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        #commentSubmitBtn {
+            margin-bottom: 20px;
+        }
+        #alfheimHero {
+            background-image: url("/images/alfheim.jpg");
+            background-position: center;
+            background-size: cover;
+            height: 40%;
+        }
+        #yggdrasilHero {
+            background-image: url("images/ratatosk.jpg");
+            background-position: center;
+            background-size: cover;
+            height: 40%;
+        }
+        #asgardHero {
+            background-image: url("images/asgard.jpg");
+            background-position: center;
+            background-size: cover;
+            height: 40%;
+        }
+        #helheimHero {
+            background-image: url("images/helheim.jpg");
+            background-position: center;
+            background-size: cover;
+            height: 40%;
+        }
+        #jotunheimHero {
+            background-image: url("images/jotunheim.jpg");
+            background-position: center;
+            background-size: cover;
+            height: 40%;
+        }
+        #midgardHero {
+            background-image: url("images/midgard.jpg");
+            background-position: center;
+            background-size: cover;
+            height: 40%;
+        }
+        #musphelheimHero {
+            background-image: url("images/musphelheim.jpg");
+            background-position: center;
+            background-size: cover;
+            height: 40%;
+        }
+        #niflheimHero {
+            background-image: url("images/niflheim.jpeg");
+            background-position: center;
+            background-size: cover;
+            height: 40%;
+        }
+        #svartalheimHero {
+            background-image: url("images/svartalheim.jpg");
+            background-position: center;
+            background-size: cover;
+            height: 40%;
+        }
+        #vanheimHero {
+            background-image: url("images/vanheim.jpg");
+            background-position: center;
+            background-size: cover;
+            height: 40%;
+        }
+        .realmHero {
+            margin-bottom: 0;
+        }
+        .realmHero .container {
+            padding-top: 50px;
+            -webkit-text-stroke: 1px black;
+            text-shadow:
+                3px 3px 0 #000,
+                -1px -1px 0 #000,
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+        }
+        .fadeImg {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+        
+
+        /* align middle row of yggdrasil tree based on screen size */
+        @media only screen and (max-width: 992px) {
+            .midRow {
+                justify-content: space-around;
+            }
+        }
+        @media only screen and (min-width: 993px) {
+            .midRow {
+                justify-content: space-between;
+            }
+        }
